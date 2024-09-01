@@ -1,0 +1,154 @@
+.Caps-Mngt{
+    display: flex;
+    flex-grow: 1;
+}
+
+.caps-crudsection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -150px;
+    margin-left: 350px;
+}
+
+
+.caps-crudsection h2{
+    font-size: 36px;
+    font-weight: 700;
+    color: #E24302;
+}
+
+.caps-searchbar {
+    width: 800px;
+    height: 50px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.534); 
+    font-size: 16px;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+.searchBackground{
+    background-color: #E24302;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin-top: -45px;
+    margin-left: 750px;
+}
+.caps-searchIcon{
+    width: 40px;
+    height: 40px;
+}
+.caps-flex{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+.caps-flex label{
+    font-size: 18px;
+    color: #007B05;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.caps-inputfields .title{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #E24302;
+    outline: none;
+    padding-left: 10px;
+
+}
+
+.capbookicon{
+    position: fixed;
+    margin-left: -35px;
+    margin-top: 3px;
+}
+.caps-program{
+    width: 100px;
+    height: 30px;
+    padding-left: 5px;
+    border: 1px solid #E24302;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-left: 10px;
+    outline: none;
+}
+.caps-year{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #E24302;
+    padding-left: 10px;
+    font-size: 14px;
+    margin-left: 25px;
+}
+.labelYear{
+    margin-left: 20px;
+}
+.capsFile{
+    width: 100%;
+    border: 1px solid #E24302;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.file-input {
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.file-upload-label {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #E24302;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+    text-align: center;
+    height: 40px;
+    width: 100%;
+    margin-top: 20px;
+    line-height: 20px; /* Adjust this value to vertically align the text */
+}
+
+.file-upload-label:hover {
+    background-color: #007B05;
+    color: white;
+    border: none;
+}
+.caps-button{
+    display: flex; 
+    margin-top: 40px;
+
+}
+.caps-button button{
+    height: 40px;
+    width: 120px;
+    background-color: #007B05;
+    border: none;
+    border-radius: 5px;
+    color: aliceblue;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.caps-button button:hover{
+    background-color:#E24302;
+}

@@ -1,0 +1,242 @@
+.user{
+    background-color: #ffffff;
+}
+h1 {
+    display: flex;
+    color: #007B05;
+    font-size: 41px;
+    justify-content: center; 
+}
+
+.dash{
+    margin-top: 60px;
+}
+.searchField{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 50px;
+}
+.search-button {
+    height: 60px;
+    width: 60px;
+    background-color: #E24302;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center; /* Align horizontally */
+    align-items: center; /* Align vertically */
+}
+
+.search-button img {
+    height: 40px;
+    width: 40px;
+}
+.inputsearch{
+    width: 988px;
+    height: 66px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.534); 
+    outline: none;
+    font-size: 18px;
+    color: rgb(43, 42, 42);
+    padding-left: 20px;
+}
+.inputsearch::placeholder{
+    opacity: 45%;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.filter-section{
+    display: flex;
+    margin-top: 38px;
+    justify-content: center;
+    align-items: center;
+}
+.filterYear{
+    width: 260px;
+    height: 45px;
+    border: 1px solid rgb(117, 117, 117);
+    outline: none;
+    border-radius: 10px;
+    font-size: 18px;
+    padding-left: 20px;
+}
+.filterLabel{
+    position: relative;
+    background-color: white;
+    top: -20px;
+    left: 60px;
+    font-size: 18px;
+    color: #414141;
+}
+.filterLabelto{
+    position: relative;
+    background-color: white;
+    top: -20px;
+    left: 35px;
+    font-size: 18px;
+    color: #414141;
+}
+
+.filterLabelpro{
+    position: relative;
+    background-color: white;
+    top: -20px;
+    left: 85px;
+}
+.programFilter{
+    width: 260px;
+    height: 45px;
+    border: 1px solid rgb(117, 117, 117);
+    outline: none;
+    border-radius: 10px;
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+/* FOR TH CARDS CAROUSEL*/
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card-container  h3 {
+    color: white;
+}
+
+.user{
+    background-color: #ffffff;
+}
+h1 {
+    display: flex;
+    color: #007B05;
+    font-size: 41px;
+    justify-content: center; 
+}
+
+.dash{
+    margin-top: 60px;
+}
+.searchField{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 50px;
+}
+.search-button {
+    height: 60px;
+    width: 60px;
+    background-color: #E24302;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center; /* Align horizontally */
+    align-items: center; /* Align vertically */
+}
+
+.search-button img {
+    height: 40px;
+    width: 40px;
+}
+.inputsearch{
+    width: 988px;
+    height: 66px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.534); 
+    outline: none;
+    font-size: 18px;
+    color: rgb(43, 42, 42);
+    padding-left: 20px;
+}
+.inputsearch::placeholder{
+    opacity: 45%;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.filter-section{
+    display: flex;
+    margin-top: 38px;
+    justify-content: center;
+    align-items: center;
+}
+.filterYear{
+    width: 260px;
+    height: 45px;
+    border: 1px solid rgb(117, 117, 117);
+    outline: none;
+    border-radius: 10px;
+    font-size: 18px;
+    padding-left: 20px;
+}
+.filterLabel{
+    position: relative;
+    background-color: white;
+    top: -20px;
+    left: 60px;
+    font-size: 18px;
+    color: #414141;
+}
+.filterLabelto{
+    position: relative;
+    background-color: white;
+    top: -20px;
+    left: 35px;
+    font-size: 18px;
+    color: #414141;
+}
+
+.filterLabelpro{
+    position: relative;
+    background-color: white;
+    top: -20px;
+    left: 85px;
+}
+.programFilter{
+    width: 260px;
+    height: 45px;
+    border: 1px solid rgb(117, 117, 117);
+    outline: none;
+    border-radius: 10px;
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+/* FOR TH CARDS CAROUSEL*/
+
+
+.card-container  h3 {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.data{
+    background-color: #E24302;
+}
+
+.card{
+    margin-top: 50px;
+    margin-left: 0px;
+    width: 255px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.6); 
+
+}
+.card img{
+    width:255px;
+    height:325px;
+}
+.card p,h3{
+    padding: 4px 8px;
+
+}
+
+.card p{
+    color: #1f1f1f;
+    font-weight: 500;
+}

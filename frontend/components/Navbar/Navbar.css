@@ -1,0 +1,46 @@
+.Navbar{
+    height: 160px;
+    background-color: #ffffff; /* Set your navbar background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);   /* Add drop shadow */
+    display: flex;
+}
+
+
+.logo {
+    width: 230px; 
+    height: 150px;
+    display: flex;
+    margin-left: 140px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Navbar .rms{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 10px;
+    margin-left: -50px;
+    line-height: 30px;
+}
+
+.Navbar .rms h1{
+    font-size: 50px;
+    color: #E24302;
+    letter-spacing:0;
+}
+.Navbar .rms h3{
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #007B05;
+    margin-left: 30px;
+}
+.logout{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 950px;
+    gap: 15px;
+    cursor: pointer;
+}

@@ -1,0 +1,68 @@
+.update-form{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.update-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    margin-left: 250px;
+    width: 400px;
+    height: 500px;
+    background-color: rgb(248, 248, 248);
+    border-radius: 5px;
+
+}
+
+.update-card input{
+    width: 300px;
+    height: 40px;
+    outline: none;
+    border: 1px solid #E24302;
+    padding-left: 15px;
+    border-radius: 5px;
+    font: 16px;
+}
+.update-card label{
+    color: #007B05;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+.update-card button{
+    width: 250px;
+    height: 40px;
+    margin-top: 40px;
+    background-color: #007B05;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: aliceblue;
+    font-size: 16px;
+}
+.update-card select{
+    width: 90px;
+    height: 30px;
+    outline: none;
+    border: 1px solid #007B05;
+    border-radius: 5px;
+}
+.update-card button:hover{
+    background-color: #E24302;
+}
+
+.close-update{
+    margin-left: 350px;
+    margin-top: -40px;
+}
